@@ -1,0 +1,57 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: teal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "header header" "login signup" "yellow yellow";
+  grid-template-columns: repeat(1fr, 2);
+  grid-template-rows: repeat(1fr, 3);
+  grid-gap: 1.5em;
+}
+
+header {
+  grid-area: header;
+}
+
+.page-header {
+  text-align: center;
+  color: #111;
+}
+
+.auth {
+  border: 1px solid #c0c0c0;
+}
+
+.auth-header {
+  margin-left: 1.5em;
+}
+
+.login {
+  grid-area: login;
+}
+
+.signup {
+  grid-area: signup;
+  margin: auto;
+}
+
+.signup-button {
+  padding: 0.5em 1.5em;
+  border: 1px solid orange;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
+
+/*# sourceMappingURL=styles.css.map */
