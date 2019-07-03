@@ -1,0 +1,21 @@
+.button {
+  padding: 0.8em;
+  border: 0;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #57b;
+  box-shadow: 0 0.4em #148;
+  border-radius: 0.5em;
+  text-shadow: 1px 1px #148;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.button:active {
+  background-color: #456ab5;
+  transform: translateY(0.1em);
+  box-shadow: 0 0.3em #148;
+}
+
+/*# sourceMappingURL=styles.css.map */
